@@ -1,0 +1,57 @@
+{
+    "name": "Melezhyk Bot Test1",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "e00f57a0-adf7-11e9-a3fa-ad72f1967205",
+            "name": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "luis",
+            "id": "60",
+            "name": "cafeDispatchModel",
+            "version": "0.1",
+            "appId": "91072cbd-b655-4539-b0a6-4c4397cb62a2",
+            "authoringKey": "91072cbd-b655-4539-b0a6-4c4397cb62a2",
+            "subscriptionKey": "42936830fdab4a27933b0adaf29fa7b0",
+            "region": "westus"
+        },
+        {
+            "type": "luis",
+            "id": "235",
+            "name": "cafeBotBookTableTurnN",
+            "version": "0.1",
+            "appId": "91072cbd-b655-4539-b0a6-4c4397cb62a2",
+            "authoringKey": "91072cbd-b655-4539-b0a6-4c4397cb62a2",
+            "subscriptionKey": "42936830fdab4a27933b0adaf29fa7b0",
+            "region": "westus"
+        },
+        {
+            "type": "qna",
+            "id": "163",
+            "name": "cafeFaqChitChat",
+            "kbId": "91072cbd-b655-4539-b0a6-4c4397cb62a2",
+            "subscriptionKey": "42936830fdab4a27933b0adaf29fa7b0",
+            "endpointKey": "91072cbd-b655-4539-b0a6-4c4397cb62a2",
+            "hostname": "https://contosocafeqna85b8.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "luis",
+            "id": "111",
+            "name": "getUserProfile",
+            "version": "0.1",
+            "appId": "91072cbd-b655-4539-b0a6-4c4397cb62a2",
+            "authoringKey": "91072cbd-b655-4539-b0a6-4c4397cb62a2",
+            "subscriptionKey": "42936830fdab4a27933b0adaf29fa7b0",
+            "region": "westus"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "/home/user/WORKING/MyGit/BOT/botbuilder-samples/samples/javascript_nodejs/14.nlp-with-dispatch/Melezhyk Bot Test1.bot"
+}

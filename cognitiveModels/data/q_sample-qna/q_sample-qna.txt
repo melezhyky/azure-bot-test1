@@ -1,0 +1,24 @@
+Applies to
+How BitLocker works with operating system drives
+how bitlocker works
+How BitLocker works with fixed and removable data drives
+Does BitLocker support multifactor authentication
+What are the BitLocker hardware and software requirements
+Why are two partitions required? Why does the system drive have to be so large
+Which Trusted Platform Modules (TPMs) does BitLocker support
+How can I tell if a TPM is on my computer
+Can I use BitLocker on an operating system drive without a TPM
+How do I obtain BIOS support for the TPM on my computer
+What credentials are required to use BitLocker
+What is the recommended boot order for computers that are going to be BitLocker-protected
+hi
+test1 question
+greetings
+good morning
+good evening
+What are you
+What
+What do you do
+Who are you
+What is your name
+What should I call you

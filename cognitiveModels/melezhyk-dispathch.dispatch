@@ -1,0 +1,49 @@
+{
+  "authoringRegion": "westus",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_Weather",
+      "appId": "ecea2543-6056-4226-897c-30da17f2352e",
+      "authoringKey": "c5b86d88f3ba4701b89cdc67800c5262",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "Weather",
+      "id": "1"
+    },
+    {
+      "intentName": "l_HomeAutomation",
+      "appId": "37b79d34-c18e-4265-b5cf-1d095c73cdc7",
+      "authoringKey": "c5b86d88f3ba4701b89cdc67800c5262",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "Home Automation",
+      "id": "2"
+    },
+    {
+      "intentName": "q_sample-qna",
+      "kbId": "679f0920-d21e-4707-bbe5-2aa245996d52",
+      "subscriptionKey": "42936830fdab4a27933b0adaf29fa7b0",
+      "type": "qna",
+      "name": "melezhyk-test1-kb",
+      "id": "3"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3"
+  ],
+  "appId": "33b9fbbf-c4a9-4fc8-ae47-3a6742fb2eb7",
+  "authoringKey": "c5b86d88f3ba4701b89cdc67800c5262",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "melezhyk-dispathch"
+}
